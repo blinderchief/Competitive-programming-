@@ -27,7 +27,6 @@ int main(){
     if(abs(v[0]-v[1])>=2)
       cout<<"NO"<<'\n';
     else cout<<"YES"<<'\n';
-    
     }
   
     
