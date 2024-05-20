@@ -1,28 +1,35 @@
 #include<bits/stdc++.h>
-// using namespace std;
-// #define ll long long int 
-// int main() {
-//   // ios_base::sync_with_stdio(false);
-//   //   cin.tie(0);
-// int t; cin>>t;
-// while(t--){
-//   int n; cin>>n;
-//   string s; cin>>s;
-//   int check = 1, check2=1;
-//   int res=0;
-  
-//   for(int i =0;i<n;i++){
-//     if(s[i] == '<')
-//     {
-//       if(check2==1) check++;
-//     }
-//     if(s[i]=='>'){
-      
-//       if(check==1) check2++;
-//     }
-//     res = max(res,max(check,check2));
-//   }
-// cout<<res<<'\n';
-// }
-// return 0;
-// }
+using namespace std;
+#define ll long long int 
+void solve(){
+  int t; cin>>t;
+  while(t--){
+ int n; cin>>n;
+  ll arr[n];
+  for(int i =0;i<n;i++){
+    cin>>arr[i];
+}
+for(int i=0;i<n-1;i++){
+if(arr[i+1]%arr[i]==0){
+  while(arr[i+1]%arr[i]==0){
+      arr[i+1]++;
+  if(arr[i+1]%arr[i]==0){
+    arr[i]++;
+  }
+  }
+}
+}
+for(int i =0;i<n;i++){
+  cout<<arr[i]<<' ';
+}
+cout<<'\n';
+  }
+ 
+
+}
+int main() {
+solve();
+
+
+return 0;
+}
