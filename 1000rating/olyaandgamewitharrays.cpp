@@ -8,10 +8,18 @@ cin.tie(0);
 int t; cin>>t;
 while(t--){
   int n;cin>>n;
+  int m;
+  vector<vector<ll>> v(n);
   for(int i=0;i<n;i++){
     int m; cin>>m;
-    cin>>
+    v[i].resize(m); 
+    for(int j =0;i<m;j++){
+      cin>>v[i][j];
+    }
   }
+  
+  
+  
 }
 return 0;
 }
