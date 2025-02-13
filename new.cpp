@@ -26,6 +26,7 @@ int main() {
         cout<<"Hi"<<'\n';
         cout<<"hi"<<'\n';
         cout<<"Blinderchief"<<'\n';
+        cout<<"Great work"<<'\n';
     }
     auto end = chrono::high_resolution_clock::now();
     auto elapsed = chrono::duration_cast<chrono::nanoseconds>(end - begin);
