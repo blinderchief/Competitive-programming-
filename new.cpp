@@ -23,6 +23,7 @@ int main() {
     int t; cin >> t;
     while (t--) {
         cout<<"HELLO SUYASH"<<"\n";
+        cout<<"Hi"<<'\n';
     }
     auto end = chrono::high_resolution_clock::now();
     auto elapsed = chrono::duration_cast<chrono::nanoseconds>(end - begin);
