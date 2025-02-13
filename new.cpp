@@ -24,7 +24,6 @@ int main() {
     while (t--) {
         cout<<"HELLO SUYASH"<<"\n";
         cout<<"Hi"<<'\n';
-        cout<<"hi"<<'\n';
         cout<<"Suyash"<<"\n";
     }
     auto end = chrono::high_resolution_clock::now();
