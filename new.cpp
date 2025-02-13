@@ -24,6 +24,7 @@ int main() {
     while (t--) {
         cout<<"HELLO SUYASH"<<"\n";
         cout<<"Hi"<<'\n';
+        cout<<"hi"<<'\n';
         cout<<"Suyash"<<"\n";
         cout<<"Blinderchief"<<'\n';
     }
